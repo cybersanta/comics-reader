@@ -1,0 +1,41 @@
+.translator {
+    position: fixed;
+    display: block;
+    background: #1E1E1E;
+    width: 418px;
+    padding: 20px 10px 20px 10px;
+    right: 25px;
+    top: 45px;
+    border-radius: 30px;
+    opacity: 0.98;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.translator hr {
+    position: relative;
+    background-color: yellow;
+    margin: 10px 0 10px 0;
+    width: 90%;
+    left: 20px;
+}
+
+.text-translation {
+    position: relative;
+    left: 20px;
+    width: 90%;
+}
+
+.text-translation:last-child {
+    padding: 0 10px 0 10px;
+}
+
+textarea {
+    background-color: #1E1E1E;
+    border: thin solid red;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 3px 15px 3px 15px;
+    width: 100%;
+    resize: none;
+}

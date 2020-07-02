@@ -1,0 +1,51 @@
+.viewer {
+    overflow: auto;
+    position: absolute;
+    top: 32px;
+    right: 0;
+    bottom: 0;
+    left: var(--sidebar-width);
+    background-color: #121212;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.page {
+    margin: 20px auto 20px auto;
+    position: relative;
+    overflow: visible;
+}
+
+/* .viewerImage {
+    height: 60%;
+} */
+
+.nav-btn{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.nav-btn#nav-btn-right {
+    right: 30px;
+    left: auto;
+}
+
+.nav_btn_icon{
+    font-size: 2rem;
+    position: fixed;
+    top: 45%;
+    margin-top: -16px;
+}
+
+.sidebarOpen .viewer:not(.pdfPresentationMode){
+    transition-property: left;
+    left: var(--sidebar-width);
+}
+

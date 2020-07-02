@@ -1,0 +1,27 @@
+.page-view {
+    height: 100%;
+    width: calc(100% - 60px);
+}
+
+.page-view-selection {
+    height: 142px;
+    width: 87px;
+    border-radius: 4px;
+    padding: 7px;
+    box-sizing: unset;
+    opacity: 0.7;
+}
+
+.page-view-selection:hover {
+    cursor: pointer;
+    background-color: #2e2e2e;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    opacity: 1;
+    
+}
+
+.page-view-image {
+    height: 140px;
+    width: 85px;
+}
